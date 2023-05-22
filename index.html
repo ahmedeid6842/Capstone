@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+
     <title>Node.js Camp</title>
 </head>
+
 <body>
-   <h1>Node.js Camp</h1> 
-   <script src="./js/index.js"></script>
+    <header>
+        <nav class="menu-main">
+            <ul class="menu-list">
+                <li><span class="menu-close">&times;</span></li>
+                <li class="menu-item"><a href="#">Home</a></li>
+                <li class="menu-item"><a href="#">About</a></li>
+                <li class="menu-item"><a href="#">Program</a></li>
+                <li class="menu-item"><a href="#">Join</a></li>
+                <li class="menu-item"><a href="#">Sponser</a></li>
+                <li class="menu-item"><a href="#" id="menu-btn">Enroll</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="./images/mobile_hamburger.svg" alt="mobile_menu" class="mobile_menu">
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
+
 </html>
