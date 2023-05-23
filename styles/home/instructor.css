@@ -1,0 +1,80 @@
+.instructor {
+    width: 100vw;
+    padding: 2rem 0;
+  }
+  
+  .instructor-main {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .instructor-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+  }
+  
+  
+  .instructor-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1rem;
+  }
+  
+  .instructor-details h4 {
+    font-size: 2rem;
+  }
+  
+  .instructor-details h6 {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--secondary-color);
+  }
+  
+  .instructor-details h6::after {
+    content: "";
+    display: block;
+    margin-top: 1rem;
+    height: 2px;
+    width: 2rem;
+    background-color: var(--background-color);
+  }
+  
+  .instructor-details p {
+    font-size: 1.2rem;
+  }
+  
+  .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--secondary-color);
+    background-color: transparent;
+    border: 1px solid var(--background-color);
+    font-size: 1.7rem;
+  }
+  
+  .more img {
+    width: 5rem;
+  }
+  
+  
+  .instructor-title {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .instructor-title::after {
+    content: "";
+    display: block;
+    margin: 1rem auto;
+    height: 3px;
+    width: 6rem;
+    background-color: var(--secondary-color);
+  }

@@ -1,0 +1,76 @@
+.previous-camps-main {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.previous-camps h3,
+.previous-camps p {
+    width: 85%;
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.previous-camps-main p {
+    font-size: 2rem;
+    color: #838383;
+}
+
+
+.camp-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.camp-title::after {
+    content: "";
+    display: block;
+    margin: 1rem auto;
+    height: 3px;
+    width: 4rem;
+    background-color: var(--secondary-color);
+}
+
+.camp-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.camp-card img {
+    max-width: 100%;
+}
+
+figure {
+    position: relative;
+}
+
+figure::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(167, 32, 17, 0.6);
+}
+
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+figcaption span {
+    display: block;
+    font-size: 5rem;
+}

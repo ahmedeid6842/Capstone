@@ -1,0 +1,39 @@
+.partner {
+    display: block;
+}
+
+.partner {
+    background-color: #414246;
+    color: var(--background-color);
+    padding: 2rem 0;
+}
+
+.partner-main {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.partner-item img {
+    width: 10rem;
+    height: auto;
+    background-color: #414246;
+}
+
+.partner-title {
+    font-size: 3rem;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.partner-title::after {
+    content: "";
+    display: block;
+    margin: 1rem auto;
+    height: 3px;
+    width: 4rem;
+    background-color: var(--secondary-color);
+}
