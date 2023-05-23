@@ -67,3 +67,24 @@
   font-weight: bold;
   color: #595959;
 }
+
+@media screen and (min-width: 768px) {
+  .intro-main {
+    margin-left: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .intro-title,
+  .intro span {
+    width: 70%;
+  }
+
+  .intro-description {
+    width: 50%;
+  }
+
+  .intro-title {
+    font-family: "Lato", sans-serif;
+    font-size: 5rem;
+  }
+}
