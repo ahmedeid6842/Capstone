@@ -76,3 +76,22 @@
   width: 6rem;
   background-color: var(--secondary-color);
 }
+
+@media screen and (min-width: 768px) {
+  .more {
+    display: none;
+  }
+
+  .instructor-main {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .instructor-item {
+    width: 45%;
+  }
+
+}

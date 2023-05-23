@@ -42,7 +42,7 @@ function buildInstructorCard(index) {
 }
 
 let index = 0;
-function listCardInstructorMobile() {
+function listCardsInstructorMobile() {
   for (let cardIndex = 0; cardIndex < 3; cardIndex += 1) {
     buildInstructorCard(index);
     index += 1;
@@ -53,5 +53,15 @@ function listCardInstructorMobile() {
   }
 }
 
-listCardInstructorMobile();
-moreButton.addEventListener('click', listCardInstructorMobile);
+function listCardsInstructorDesktop() {
+  for (let cardIndex = instructors.length - 1; cardIndex >= 0; cardIndex -= 1) {
+    buildInstructorCard(cardIndex);
+  }
+}
+
+if (window.innerWidth < 768) {
+  listCardsInstructorMobile();
+  moreButton.addEventListener('click', listCardsInstructorMobile);
+} else {
+  listCardsInstructorDesktop();
+}
