@@ -1,70 +1,69 @@
 .container {
-    width: 100%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-
 .intro {
-    min-height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(to right bottom, var(--background-color), rgba(255, 255, 255, 0.5)), url(../../images/cover1.avif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-top: 1.5rem;
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right bottom, var(--background-color), rgba(255, 255, 255, 0.5)), url(../../images/cover1.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 1.5rem;
 }
 
 .intro-main {
-    margin-top: 8rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .intro-title::before {
-    content: '"Hello, sharing world"';
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--secondary-color);
-    text-transform: capitalize;
-    margin-bottom: 1rem;
+  content: '"Hello, sharing world"';
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
 .intro-title {
-    font-size: 4.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    background-image: linear-gradient(to right bottom, #ec5242, #a72011);
-    -webkit-background-clip: text;
-    color: transparent;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background-image: linear-gradient(to right bottom, #ec5242, #a72011);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .intro-description {
-    font-size: 2rem;
-    text-align: justify;
-    border: 2px solid white;
-    padding: 2rem;
-    margin: 1rem 2rem 0 0;
-    background-color: #e3f8f9 ;
+  font-size: 2rem;
+  text-align: justify;
+  border: 2px solid white;
+  padding: 2rem;
+  margin: 1rem 2rem 0 0;
+  background-color: #e3f8f9;
 }
 
 .intro-date {
-    font-size: 2.6rem;
-    text-align: left;
-    font-weight: bold;
-    color: #595959;
+  font-size: 2.6rem;
+  text-align: left;
+  font-weight: bold;
+  color: #595959;
 }
 
 .intro span {
-    display: block;
-    text-align: left;
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
-    font-weight: bold;
-    color: #595959;
+  display: block;
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  color: #595959;
 }

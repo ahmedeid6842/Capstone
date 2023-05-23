@@ -1,44 +1,45 @@
-.intro{
-    padding-bottom: 5rem;
+.intro {
+  padding-bottom: 5rem;
 }
+
 .intro-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
 .intro-title,
 .intro-description {
-    text-align: center;
-    width: 90%;
+  text-align: center;
+  width: 90%;
 }
 
 .intro-description {
-    font-family: "Lato", sans-serif;
-    font-size: 2rem;
-    background-color: #e3f8f9;
-    border: 1px solid white;
-    color: #2C2C2C;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  background-color: #e3f8f9;
+  border: 1px solid white;
+  color: #2c2c2c;
 }
 
 .intro-contact {
-    text-align: center;
-    font-size: 1.7rem;
-    margin-top: 1rem;
-    width: 70%;
-    color: #838383;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  width: 70%;
+  color: #838383;
 }
 
 .intro-contact a {
-    display: block;
-    margin: 1rem;
-    color: #2C2C2C;
-    text-decoration: underline;
-    font-weight: bold;
+  display: block;
+  margin: 1rem;
+  color: #2c2c2c;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .intro-contact a:hover {
-    color: var(--secondary-color)
+  color: var(--secondary-color);
 }
