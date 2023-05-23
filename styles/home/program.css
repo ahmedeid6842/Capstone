@@ -69,3 +69,25 @@
   width: 6rem;
   background-color: var(--secondary-color);
 }
+
+@media screen and (min-width: 768px) {
+  .program-item {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .program-main {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .program-item p {
+    text-align: center;
+  }
+
+  .join-btn {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+}
