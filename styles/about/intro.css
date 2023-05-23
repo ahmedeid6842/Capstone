@@ -1,4 +1,6 @@
-
+.intro{
+    padding-bottom: 5rem;
+}
 .intro-main {
     display: flex;
     flex-direction: column;
