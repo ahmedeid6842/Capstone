@@ -32,10 +32,10 @@ menuItems.forEach((item) => {
 window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     introDescription.innerHTML = `Join us for the Node.js Code Camp 2023, where developers from around the world will come together to learn, network, and innovate. We're excited to offer a unique opportunity for developers to connect with like-minded individuals who share their passion for backend development, and to gain insights from expert speakers and interactive workshops. Our goal is to foster a community of professionals dedicated to driving innovation and growth in the field of backend development. So whether you're a seasoned pro or just starting out, we invite you to be a part of this exciting event and help shape the future of Node.js development.<br>
-    Together, we'll explore the latest trends, technologies, and best practices in backend development, and work towards building a stronger and more dynamic community of developers.`
+    Together, we'll explore the latest trends, technologies, and best practices in backend development, and work towards building a stronger and more dynamic community of developers.`;
     aboutFooterLogo.setAttribute('src', './images/logos/icon-only-white.png');
   } else {
-    introDescription.innerHTML = `Join us for the Node.js Code Camp 2023, where developers from around the world will come together to learn, network, and innovate. We're excited to offer a unique opportunity for developers to connect with like-minded individuals.`;
+    introDescription.innerHTML = 'Join us for the Node.js Code Camp 2023, where developers from around the world will come together to learn, network, and innovate. We\'re excited to offer a unique opportunity for developers to connect with like-minded individuals.';
     aboutFooterLogo.setAttribute('src', './images/logos/icon-only-black.png');
   }
 });
