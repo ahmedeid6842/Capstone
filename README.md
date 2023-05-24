@@ -149,6 +149,7 @@ If you like this project, please give it a star ⭐️
 
 ## 📖 Acknowledgements <a name="acknowledgements"></a>
 I would like to express my appreciation to <a href="https://www.behance.net/adagio07">Cindy Shin in Behance</a> for creating the original design and UI/UX.
+
 I would like to appreciate <a href="https://www.microverse.org/">Microverse</a> for providing the resources and the platform for us to be a Professional full-stack developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
