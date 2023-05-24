@@ -77,3 +77,7 @@ if (window.innerWidth < 768) {
 } else {
   listCardsInstructorDesktop();
 }
+
+window.addEventListener('resize', () => {
+  window.location.reload();
+});

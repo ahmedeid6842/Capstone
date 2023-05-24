@@ -94,6 +94,7 @@ figcaption span {
 
   .camp-card {
     flex-direction: row;
+    margin-top: 5rem;
   }
 
   .camp-card figure {
