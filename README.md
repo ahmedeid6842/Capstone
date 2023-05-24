@@ -54,7 +54,7 @@
 
 - **Have Both Home and About page**
 - **Beatiful User Interface and Experience**
-- **Support Dynamically Contect**
+- **Support Dynamically Content**
 - **Responsive Web Design (RWD)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
