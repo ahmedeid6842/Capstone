@@ -1,0 +1,69 @@
+.logo::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--background-color);
+  margin: 4rem 0;
+  margin-top: 2rem;
+}
+
+.logo-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.logo-title {
+  font-size: 3rem;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.logo-title::after {
+  content: "";
+  display: block;
+  margin: 1rem auto;
+  height: 3px;
+  width: 4rem;
+  background-color: var(--secondary-color);
+}
+
+.logo h3,
+.logo p {
+  width: 85%;
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+.logo p {
+  font-size: 2rem;
+  color: #838383;
+}
+
+.logo img {
+  max-width: 80%;
+  border: 1px solid var(--background-color);
+}
+
+@media screen and (min-width: 768px) {
+  .logo img {
+    max-width: 35%;
+    border: 1px solid var(--background-color);
+  }
+
+  .logo h3,
+  .logo p {
+    width: 85%;
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .logo p {
+    font-size: 1.5rem;
+    width: 50%;
+    color: #838383;
+  }
+}
