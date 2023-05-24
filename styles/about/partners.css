@@ -56,3 +56,47 @@
   font-size: 1.3rem;
   color: #838383;
 }
+
+.copyrights p {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .partner {
+    display: none;
+  }
+
+  footer {
+    background-color: #2c2c2c;
+    margin: 0;
+  }
+
+  .copyrights {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0rem;
+    margin-left: 20rem;
+    gap: 3rem;
+    padding: 3rem;
+    background-color: #2c2c2c;
+  }
+
+  .copyrights img {
+    width: 10rem;
+    align-items: center;
+  }
+
+  .copyrights h6 {
+    font-size: 1.3rem;
+    color: white;
+  }
+
+  .copyrights p {
+    display: block;
+    font-size: 1rem;
+    color: #838383;
+  }
+}

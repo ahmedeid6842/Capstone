@@ -43,3 +43,25 @@
 .intro-contact a:hover {
   color: var(--secondary-color);
 }
+
+@media screen and (min-width: 768px) {
+  .intro-main {
+    padding-bottom: 5rem;
+    margin-left: 0;
+  }
+
+  .intro-title,
+  .intro span {
+    width: 70%;
+  }
+
+  .intro-description {
+    width: 60%;
+    font-size: 1.2rem;
+  }
+
+  .intro-title {
+    font-family: "Lato", sans-serif;
+    font-size: 5rem;
+  }
+}

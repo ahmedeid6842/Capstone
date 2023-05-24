@@ -13,7 +13,7 @@
 }
 
 .previous-camps-main p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #838383;
 }
 
@@ -72,4 +72,39 @@ figcaption {
 figcaption span {
   display: block;
   font-size: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .previous-camps-main {
+    margin-bottom: 7rem;
+  }
+
+  .previous-camps-main h3,
+  .previous-camps-main p {
+    width: 85%;
+    font-size: 2.7rem;
+    text-align: center;
+  }
+
+  .previous-camps-main p {
+    font-size: 1.5rem;
+    width: 50%;
+    color: #838383;
+  }
+  
+  .camp-card {
+    flex-direction: row;
+  }
+
+  .camp-card figure {
+    flex-basis: 50%;
+    position: relative;
+    height: 30rem;
+  }
+
+  .camp-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
