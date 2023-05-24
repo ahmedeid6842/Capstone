@@ -31,15 +31,11 @@ menuItems.forEach((item) => {
 // check the width of the viewport on page load and resize
 window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
-    introDescription.innerHTML = `The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.<br>
-    This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge.<br>
-    So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a stronger, more vibrant commons together`;
+    introDescription.innerHTML = `Join us for the Node.js Code Camp 2023, where developers from around the world will come together to learn, network, and innovate. We're excited to offer a unique opportunity for developers to connect with like-minded individuals who share their passion for backend development, and to gain insights from expert speakers and interactive workshops. Our goal is to foster a community of professionals dedicated to driving innovation and growth in the field of backend development. So whether you're a seasoned pro or just starting out, we invite you to be a part of this exciting event and help shape the future of Node.js development.<br>
+    Together, we'll explore the latest trends, technologies, and best practices in backend development, and work towards building a stronger and more dynamic community of developers.`
     aboutFooterLogo.setAttribute('src', './images/logos/icon-only-white.png');
   } else {
-    introDescription.innerHTML = `The Global Summit brings together the community of
-    experts, academics, and activists who comprise the Creative Commons affiliate network in a different
-    country every two years.
-    This year, we hope to expand our invitation list including organizations and individuals.`;
+    introDescription.innerHTML = `Join us for the Node.js Code Camp 2023, where developers from around the world will come together to learn, network, and innovate. We're excited to offer a unique opportunity for developers to connect with like-minded individuals.`;
     aboutFooterLogo.setAttribute('src', './images/logos/icon-only-black.png');
   }
 });
