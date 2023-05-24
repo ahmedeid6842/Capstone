@@ -28,20 +28,19 @@ menuItems.forEach((item) => {
   item.addEventListener('click', menuClose);
 });
 
-
 // check the width of the viewport on page load and resize
-window.addEventListener('resize', function () {
+window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     introDescription.innerHTML = `The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.<br>
     This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge.<br>
     So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a stronger, more vibrant commons together`;
-    aboutFooterLogo.setAttribute('src', './images/logos/icon-only-white.png')
+    aboutFooterLogo.setAttribute('src', './images/logos/icon-only-white.png');
   } else {
     introDescription.innerHTML = `The Global Summit brings together the community of
     experts, academics, and activists who comprise the Creative Commons affiliate network in a different
     country every two years.
-    This year, we hope to expand our invitation list including organizations and individuals.`
-    aboutFooterLogo.setAttribute('src', './images/logos/icon-only-black.png')
+    This year, we hope to expand our invitation list including organizations and individuals.`;
+    aboutFooterLogo.setAttribute('src', './images/logos/icon-only-black.png');
   }
 });
 
